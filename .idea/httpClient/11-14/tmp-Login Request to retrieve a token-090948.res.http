@@ -1,0 +1,18 @@
+// Status: 500, time: 4,766ms, size: 136 B
+/*
+post js executed result:
+token was set to(global scope): undefined
+*/
+### Login Request to retrieve a token
+POST http://localhost:4004/auth/login HTTP/1.1
+content-length: 136
+content-type: application/json
+
+{
+  "timestamp": "2025-11-14T15:39:47.592+00:00",
+  "path": "/auth/login",
+  "status": 500,
+  "error": "Internal Server Error",
+  "requestId": "6c0027f4-1"
+}
+>> C:\Users\pnave\IdeaProjects\patient-management\.idea\httpClient\11-14\Login Request to retrieve a token\2025-11-14T210948.json

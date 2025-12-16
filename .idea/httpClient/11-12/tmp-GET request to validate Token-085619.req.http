@@ -1,0 +1,6 @@
+// Size: 0 B
+### GET request to validate Token
+GET http://localhost:4005/validate HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2Mjk2MTE3NCwiZXhwIjoxNzYyOTk3MTc0fQ.jG-owdRGyFf9rCW8_hNgVVeNQ8D45CClhy7__C8M82YtoIiE5VgVvOW0k-wFfiPH
+Content-Length: 0
+

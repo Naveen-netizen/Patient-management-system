@@ -1,0 +1,17 @@
+// Status: 200, time: 253ms, size: 200 B
+### Login Request to retrieve a token
+POST http://localhost:4005/login HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/json
+date: Wed, 12 Nov 2025 15:13:45 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-xss-protection: 0
+
+{
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2Mjk2MDQyNSwiZXhwIjoxNzYyOTk2NDI1fQ.vQwuZo_yqyPiEcTOvQyPIKGMMBzfypSdHxIHd1WDG3Pfn1MRAHhU1NK1ZQVFZpS0"
+}
+>> C:\Users\pnave\IdeaProjects\patient-management\.idea\httpClient\11-12\Login Request to retrieve a token\2025-11-12T204345.json

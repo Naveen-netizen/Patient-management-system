@@ -1,0 +1,7 @@
+// Status: 401, time: 60ms, size: 0 B
+### GET request to get all patients
+GET http://localhost:4004/api/patients HTTP/1.1
+content-length: 0
+
+
+>> C:\Users\pnave\IdeaProjects\patient-management\.idea\httpClient\11-16\GET request to get all patients\2025-11-16T120951.txt

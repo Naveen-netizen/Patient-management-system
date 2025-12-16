@@ -1,0 +1,14 @@
+// Status: 401, time: 35ms, size: 0 B
+### GET request to validate Token
+GET http://localhost:4004/auth/validate HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-length: 0
+date: Wed, 12 Nov 2025 15:16:59 GMT
+expires: 0
+pragma: no-cache
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-xss-protection: 0
+
+
+>> C:\Users\pnave\IdeaProjects\patient-management\.idea\httpClient\11-12\GET request to validate Token\2025-11-12T204659.txt

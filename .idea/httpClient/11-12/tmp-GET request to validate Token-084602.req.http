@@ -1,0 +1,6 @@
+// Size: 0 B
+### GET request to validate Token
+GET http://localhost:4004/auth/validate HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Length: 0
+

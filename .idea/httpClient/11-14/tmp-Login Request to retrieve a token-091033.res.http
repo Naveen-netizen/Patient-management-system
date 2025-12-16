@@ -1,0 +1,21 @@
+// Status: 200, time: 1,446ms, size: 200 B
+/*
+post js executed result:
+token was set to(global scope): eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2MzEzNDgzMywiZXhwIjoxNzYzMTcwODMzfQ.jEdp42RSaT1Yc3qALumCU0BuXJmi_YjVWBJ1-WvQeOdYrwpKOwuLhQK_ew_fLhmd
+*/
+### Login Request to retrieve a token
+POST http://localhost:4004/auth/login HTTP/1.1
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/json
+date: Fri, 14 Nov 2025 15:40:33 GMT
+expires: 0
+pragma: no-cache
+transfer-encoding: chunked
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-xss-protection: 0
+
+{
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc2MzEzNDgzMywiZXhwIjoxNzYzMTcwODMzfQ.jEdp42RSaT1Yc3qALumCU0BuXJmi_YjVWBJ1-WvQeOdYrwpKOwuLhQK_ew_fLhmd"
+}
+>> C:\Users\pnave\IdeaProjects\patient-management\.idea\httpClient\11-14\Login Request to retrieve a token\2025-11-14T211033.json

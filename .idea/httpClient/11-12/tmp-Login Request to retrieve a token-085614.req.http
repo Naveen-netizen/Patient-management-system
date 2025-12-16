@@ -1,0 +1,10 @@
+// Size: 63 B
+### Login Request to retrieve a token
+POST http://localhost:4005/login HTTP/1.1
+Content-Type: application/json
+Content-Length: 63
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
