@@ -1,0 +1,226 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Patient Management Stack (LocalStack Ready)
+
+Resources:
+
+  # ===============================
+  # VPC
+  # ===============================
+  PatientManagementVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: PatientManagementVPC
+
+  # ===============================
+  # Internet Gateway
+  # ===============================
+  PatientManagementIGW:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: PatientManagementIGW
+
+  VPCGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref PatientManagementVPC
+      InternetGatewayId: !Ref PatientManagementIGW
+
+  # ===============================
+  # Public Subnets
+  # ===============================
+  PublicSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref PatientManagementVPC
+      CidrBlock: 10.0.1.0/24
+      AvailabilityZone: us-east-1a
+      MapPublicIpOnLaunch: true
+
+  PublicSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref PatientManagementVPC
+      CidrBlock: 10.0.2.0/24
+      AvailabilityZone: us-east-1b
+      MapPublicIpOnLaunch: true
+
+  # ===============================
+  # Private Subnets
+  # ===============================
+  PrivateSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref PatientManagementVPC
+      CidrBlock: 10.0.11.0/24
+      AvailabilityZone: us-east-1a
+
+  PrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref PatientManagementVPC
+      CidrBlock: 10.0.12.0/24
+      AvailabilityZone: us-east-1b
+
+  # ===============================
+  # Route Tables
+  # ===============================
+  PublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref PatientManagementVPC
+
+  PublicRoute:
+    Type: AWS::EC2::Route
+    DependsOn: VPCGatewayAttachment
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref PatientManagementIGW
+
+  PublicSubnet1RouteTableAssoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PublicSubnet1
+      RouteTableId: !Ref PublicRouteTable
+
+  PublicSubnet2RouteTableAssoc:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PublicSubnet2
+      RouteTableId: !Ref PublicRouteTable
+
+  # ===============================
+  # Security Groups
+  # ===============================
+  APIGatewaySecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: "Allow HTTP traffic to API Gateway"
+      VpcId: !Ref PatientManagementVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+      SecurityGroupEgress:
+        - IpProtocol: -1
+          CidrIp: 0.0.0.0/0
+
+  # ===============================
+  # IAM Roles
+  # ===============================
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: PatientLambdaExecutionRole
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: LambdaLogsPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: "*"
+
+  # ===============================
+  # Mock Patient Service Lambda
+  # ===============================
+  PatientServiceMock:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: PatientServiceMock
+      Handler: index.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Runtime: nodejs18.x
+      Code:
+        ZipFile: |
+          exports.handler = async () => {
+            return { statusCode: 200, body: JSON.stringify("LocalStack Mock Success") };
+          }
+
+  # ===============================
+  # API Gateway (mocked integration with Lambda)
+  # ===============================
+  PatientApi:
+    Type: AWS::ApiGateway::RestApi
+    Properties:
+      Name: PatientManagementAPI
+
+  PatientApiResource:
+    Type: AWS::ApiGateway::Resource
+    Properties:
+      ParentId: !GetAtt PatientApi.RootResourceId
+      PathPart: patients
+      RestApiId: !Ref PatientApi
+
+  PatientApiMethod:
+    Type: AWS::ApiGateway::Method
+    Properties:
+      RestApiId: !Ref PatientApi
+      ResourceId: !Ref PatientApiResource
+      HttpMethod: GET
+      AuthorizationType: NONE
+      Integration:
+        Type: AWS_PROXY
+        IntegrationHttpMethod: POST
+        Uri: !Sub arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PatientServiceMock.Arn}/invocations
+
+        PatientServiceMock:
+          Type: AWS::Lambda::Function
+          Properties:
+            FunctionName: patient-service-mock
+            Runtime: nodejs18.x
+            Handler: index.handler
+            Role: !GetAtt LambdaExecutionRole.Arn
+            Timeout: 10
+            Code:
+              ZipFile: |
+                exports.handler = async (event) => {
+                  return {
+                    statusCode: 200,
+                    body: JSON.stringify({ message: "Patient service OK" })
+                  };
+                };
+                PatientCluster:
+  Type: AWS::ECS::Cluster
+
+PatientTask:
+  Type: AWS::ECS::TaskDefinition
+  Properties:
+    RequiresCompatibilities: [EC2]
+    ContainerDefinitions:
+      - Name: patient-service
+        Image: nginx
+        PortMappings:
+          - ContainerPort: 80
+
+PatientService:
+  Type: AWS::ECS::Service
+  Properties:
+    Cluster: !Ref PatientCluster
+    TaskDefinition: !Ref PatientTask
+    DesiredCount: 1
+
+
+
+Outputs:
+  ApiUrl:
+    Description: "Invoke URL for Patient API"
+    Value: !Sub "http://${PatientApi}.execute-api.${AWS::Region}.local:4566/patients"

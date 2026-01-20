@@ -5,174 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8ccc29-4444-42a3-8698-d70d1ac896b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T204602.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T204659.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T204745.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T204803.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T204811.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T204835.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T205101.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/GET request to validate Token/2025-11-12T205619.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T201057.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T201113.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T201148.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T202614.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204309.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204318.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204333.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204345.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204359.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204405.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204628.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204633.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T204645.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/Login Request to retrieve a token/2025-11-12T205614.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084602.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084602.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084659.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084659.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084745.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084745.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084802.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084803.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084811.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084811.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084835.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-084835.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-085101.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-085101.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-085619.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-GET request to validate Token-085619.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-081057.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-081057.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-081113.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-081113.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-081148.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-081148.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-082614.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-082614.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084309.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084309.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084318.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084318.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084333.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084333.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084345.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084345.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084359.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084400.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084405.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084405.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084628.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084628.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084633.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084633.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084645.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-084645.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-085614.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-12/tmp-Login Request to retrieve a token-085614.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-14/Login Request to retrieve a token/2025-11-14T210948.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-14/Login Request to retrieve a token/2025-11-14T211033.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-14/tmp-Login Request to retrieve a token-090947.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-14/tmp-Login Request to retrieve a token-090948.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-14/tmp-Login Request to retrieve a token-091033.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-14/tmp-Login Request to retrieve a token-091033.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T112853.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T113155.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T113241.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114347.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114424.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114618.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114655.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114721.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114724.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114855.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T114908.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T115424.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T115630.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T115634.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T120050.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T120458.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T120535.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T120859.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T120951.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T121740.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T122233.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T122259.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/GET request to get all patients/2025-11-16T122310.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/Login Request to retrieve a token/2025-11-16T122201.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/Login Request to retrieve a token/2025-11-16T122216.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-112853.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-112853.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-113155.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-113155.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-113241.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-113241.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114347.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114347.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114424.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114424.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114618.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114618.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114655.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114655.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114721.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114721.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114724.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114724.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114855.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114855.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114908.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-114908.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-115424.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-115424.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-115630.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-115630.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-115634.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-115634.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120050.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120050.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120308.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120309.error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120458.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120458.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120535.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120535.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120859.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120859.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120951.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-120952.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-121740.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-121740.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-122233.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-122233.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-122258.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-122259.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-122310.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-GET request to get all patients-122310.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-Login Request to retrieve a token-122201.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-Login Request to retrieve a token-122201.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-Login Request to retrieve a token-122215.req.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpClient/11-16/tmp-Login Request to retrieve a token-122216.res.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-requests/auth-service/login.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-requests/auth-service/validate.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-requests/patient-service/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration-tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration-tests/src/test/java/AuthIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration-tests/src/test/java/PatientIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudformation/patient-management-stack.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/pm/api_gateway/ApiGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/AuthServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/AuthServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/test/java/com/pm/authservice/AuthServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +66,7 @@
     &quot;Application.AnalyticsServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Docker.analytics-service.executor&quot;: &quot;Run&quot;,
     &quot;Docker.api-gateway.executor&quot;: &quot;Run&quot;,
@@ -245,6 +93,8 @@
     &quot;Maven.auth-service [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.billing-service [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.infrastructure [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.infrastructure [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.integration-tests [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.integration-tests [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.patient-service [clean].executor&quot;: &quot;Run&quot;,
@@ -261,6 +111,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\pnave\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
     &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -298,11 +149,11 @@
       <recent name="C:\Users\pnave\IdeaProjects\patient-management\patient-service\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pnave\IdeaProjects\patient-management\" />
+      <recent name="C:\Users\pnave\IdeaProjects\patient-management" />
       <recent name="C:\Users\pnave\IdeaProjects\patient-management\billing-service\src\main" />
       <recent name="C:\Users\pnave\IdeaProjects\patient-management\patient-service\src\main" />
       <recent name="C:\Users\pnave\IdeaProjects\patient-management\billing-service\src" />
-      <recent name="C:\Users\pnave\IdeaProjects\patient-management\patient-service\src" />
-      <recent name="C:\Users\pnave\IdeaProjects\patient-management" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.pm.patient_service.controller" />
@@ -331,7 +182,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in integration-tests">
+  <component name="RunManager" selected="Docker.patient-service">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pm.api_gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -341,6 +192,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalStack" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+      <option name="MAIN_CLASS_NAME" value="com.pm.stack.LocalStack" />
+      <module name="infrastructure" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/infrastructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,9 +218,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in integration-tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="integration-tests" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -750,6 +618,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LocalStack" />
       <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.PatientServiceApplication" />
       <item itemvalue="Docker.analytics-service" />
@@ -805,6 +674,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
